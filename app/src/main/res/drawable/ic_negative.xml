@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Outer Circle -->
+    <path
+        android:pathData="M12,0A12,12 0,1 1,0 12A12,12 0,1 1,12 0Z"
+        android:fillColor="#000000"
+        android:fillAlpha="0.15"/>
+
+    <!-- Negative Symbol (Horizontal Line) -->
+    <path
+        android:pathData="M8,12H16C16.276,12 16.5,12.224 16.5,12.5C16.5,12.776 16.276,13 16,13H8C7.724,13 7.5,12.776 7.5,12.5C7.5,12.224 7.724,12 8,12Z"
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"/>
+</vector>

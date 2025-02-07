@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Circular Gradient Background -->
+    <path
+        android:pathData="M12,0A12,12 0,1 1,0 12A12,12 0,1 1,12 0Z"
+        android:fillColor="#FF6200EE" />
+
+    <gradient
+        android:endX="24"
+        android:endY="24"
+        android:startX="0"
+        android:startY="0"
+        android:type="radial"
+        android:centerX="12"
+        android:centerY="12"
+        android:gradientRadius="12">
+        <item android:color="#FF6200EE" android:offset="0.0" />
+        <item android:color="#FFBB86FC" android:offset="1.0" />
+    </gradient>
+
+    <!-- Plus Icon -->
+    <path
+        android:pathData="M12,7L12,17M7,12L17,12"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
